@@ -27,7 +27,6 @@
 		099537BD25040811008438F3 /* DataListDetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099537BB25040811008438F3 /* DataListDetails+CoreDataClass.swift */; };
 		099537BE25040811008438F3 /* DataListDetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099537BC25040811008438F3 /* DataListDetails+CoreDataProperties.swift */; };
 		099537C025040D80008438F3 /* DataListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099537BF25040D80008438F3 /* DataListDetailView.swift */; };
-		099537C225041667008438F3 /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099537C125041667008438F3 /* FileDownloader.swift */; };
 		C0E67D476B72995FBBAD71F5 /* Pods_SwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CA13DDCA66361FA9271EB1 /* Pods_SwiftApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,7 +74,6 @@
 		099537BB25040811008438F3 /* DataListDetails+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataListDetails+CoreDataClass.swift"; sourceTree = "<group>"; };
 		099537BC25040811008438F3 /* DataListDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataListDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		099537BF25040D80008438F3 /* DataListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListDetailView.swift; sourceTree = "<group>"; };
-		099537C125041667008438F3 /* FileDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownloader.swift; sourceTree = "<group>"; };
 		18D864C96B2529033022CB39 /* Pods-SwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftApp.debug.xcconfig"; path = "Target Support Files/Pods-SwiftApp/Pods-SwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
 		564738B17D254B41D22C1EA9 /* Pods-SwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftApp.release.xcconfig"; path = "Target Support Files/Pods-SwiftApp/Pods-SwiftApp.release.xcconfig"; sourceTree = "<group>"; };
 		89CA13DDCA66361FA9271EB1 /* Pods_SwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,7 +222,6 @@
 			isa = PBXGroup;
 			children = (
 				099537A92503C91F008438F3 /* SwiftExtensions.swift */,
-				099537C125041667008438F3 /* FileDownloader.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -437,7 +434,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				099537C225041667008438F3 /* FileDownloader.swift in Sources */,
 				099537662503AF6C008438F3 /* AppDelegate.swift in Sources */,
 				099537A72503BD2B008438F3 /* DataListTableViewCell.swift in Sources */,
 				099537BD25040811008438F3 /* DataListDetails+CoreDataClass.swift in Sources */,
